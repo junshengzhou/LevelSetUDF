@@ -19,7 +19,7 @@
   <div align="center"></div>
 </p>
 
-We will release the code of the paper <a href="https://junshengzhou.github.io/">Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection</a> in this repository.
+We will release the code of the paper <a href="https://arxiv.org/abs/2308.11441">Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection</a> in this repository.
 
 ## Citation
 If you find our code or paper useful, please consider citing
@@ -81,3 +81,5 @@ cd extensions/chamfer_dist
 python setup.py install
 ```
 
+## Train
+Coming soom
