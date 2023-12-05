@@ -106,7 +106,7 @@ python run.py --gpu 0 --conf confs/object.conf --dataname (dataname) --dir (data
 ### Notice
 - For achieving better performances on point clouds of different complexity, the weights for the losses should be adjusted. For example, we provide two configs in the `./conf` folder, i.e., `object.conf` and `scene.conf`. If you are reconstructing large scale scenes, the `scene.conf` is recomended, otherwise, the `object.conf` should work fine for object-level reconstructions.
 
-- In different datasets or your own data, because of the variation in point cloud density, this hyperparameter [scale](https://github.com/junshengzhou/CAP-UDF/blob/eb22ffd4b3f34d4fa74e1863ece7ff37d63d03cc/models/dataset.py#L51) has a very strong influence on the final result, which controls the distance between the query points and the point cloud. So if you want to get better results, you should adjust this parameter. We give `0.25 * np.sqrt(POINT_NUM_GT / 20000)` here as a reference value, and this value can be used for most object-level reconstructions. 
+- In different datasets or your own data, because of the variation in point cloud density, this hyperparameter [scale](https://github.com/junshengzhou/LevelSetUDF/blob/44cd4e72b895f51bd2d06689392e25b31fed017a/models/dataset.py#L52) has a very strong influence on the final result, which controls the distance between the query points and the point cloud. So if you want to get better results, you should adjust this parameter. We give `0.25 * np.sqrt(POINT_NUM_GT / 20000)` here as a reference value, and this value can be used for most object-level reconstructions. 
 
 ## Related works
 Please also check out the following works that inspire us a lot:
