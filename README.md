@@ -1,5 +1,6 @@
 <p align="center">
 
+
   <h1 align="center">Learning a More Continuous Zero Level Set in Unsigned Distance Fields through Level Set Projection</h1>
   <p align="center">
     <a href="https://junshengzhou.github.io/"><strong>Junsheng Zhou*</strong></a>
